@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "preserve",
+        "strict": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "moduleResolution": "bundler",
+        "baseUrl": ".",
+        // "paths": {
+        //     "*": ["./*"]
+        // },
+        "declaration": true
+    },
+    "include": ["index.ts"],
+    "exclude": ["node_modules", "dist"]
+}
