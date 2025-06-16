@@ -1,19 +1,30 @@
 {
-    "name": "vite-plugin-html-template",
-    "version": "1.0.0",
-    "description": "",
+    "name": "@pojagi/vite-plugin-html-template",
+    "version": "0.1.0",
+    "description": "Vite plugin enabling import of `HTMLTemplateElement` from HTML source file.",
     "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tjb1982/vite-plugin-html-template"
+    },
     "files": [
-        "dist/index.d.ts"
+        "dist/",
+        "LICENSE"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "swc ./index.ts -d dist && tsc --emitDeclarationOnly",
         "clean": "rm -rf dist"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "vite",
+        "plugin",
+        "html",
+        "template",
+        "HTMLTemplateElement"
+    ],
+    "author": "Tom Brennan <tjb1982@gmail.com>",
+    "license": "MIT",
     "type": "module",
     "peerDependencies": {
         "vite": "^6.3.5"
